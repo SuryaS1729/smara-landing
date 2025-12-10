@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import logo from './assets/app-logo.png'
 import phoneMockup from './assets/screenshot-image.png'
 
