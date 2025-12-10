@@ -1,7 +1,42 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+/* Local Fonts */
 
+/* Grandstander - Variable Font */
+@font-face {
+  font-family: 'Grandstander';
+  src: url('./assets/grandstander.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Geist Variable Font */
+@font-face {
+  font-family: 'Geist';
+  src: url('./assets/GeistVF.woff') format('woff');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Recoleta Regular */
+@font-face {
+  font-family: 'Recoleta';
+  src: url('./assets/Recoleta-RegularDEMO.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Cooper Light BT */
+@font-face {
+  font-family: 'CooperLt';
+  src: url('./assets/Cooper Light BT.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   background-color: #ffffff;
@@ -14,5 +49,8 @@ body {
 }
 
 @theme {
-  --font-grandstander: "Grandstander", system-ui, sans-serif;
+  --font-grandstander: "Grandstander", cursive;
+  --font-recoleta: "Recoleta", Georgia, serif;
+  --font-geist: "Geist", system-ui, sans-serif;
+  --font-cooper: "CooperLt", Georgia, serif;
 }
