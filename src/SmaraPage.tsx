@@ -1,37 +1,37 @@
 
-import logo from './assets/app-logo.png'
-import phoneMockup from './assets/screenshot-image.png'
+import logo from './assets/app-logo2.png'
+import phoneMockup2 from './assets/ss2.png'
 
 type Props = {}
 
 export default function SmaraPage({}: Props) {
   return (
  <div className="min-h-screen w-full bg-white flex items-center justify-center p-4 md:p-8 lg:p-20 overflow-hidden s">
-      <div className="max-w-[1200px] w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center p-2">
+      <div className="max-w-[1200px] w-full grid grid-cols-1 lg:grid-cols-2  gap-12 lg:gap-24 items-center p-2 mx-10">
         {/* Left Content */}
-        <div className="flex flex-col items-start gap-5 z-10 ">
+        <div className="flex flex-col items-start gap-8 z-10  ">
           {/* Logo Section */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 ">
             <img 
               src={logo} 
               alt="Smara Logo" 
               className="w-16 h-16 object-contain" // Adjusted size based on visual
             />
-            <span className="text-3xl text-gray-600 font-grandstander">
+            <span className="text-2xl text-gray-600 font-grandstander">
               smara
             </span>
           </div>
 
           {/* Main Headline */}
-          <h1 className="text-5xl md:text-6xl text-[#1a1a1a] leading-tight font-recoleta">
+          <h1 className="text-5xl text-[#1a1a1a] leading-tight font-recoleta">
             Your little memory<br />
             companion.
           </h1>
 
           {/* Highlight Section */}
           <div className="space-y-4">
-            <p className="text-2xl md:text-3xl text-[#1a1a1a] leading-snug font-geist font-light">
-              <span className="bg-[#FFE4C4] px-2 py-2 rounded-lg font-grandstander font-light ">Smara</span> helps you save, revisit, and truly remember the words and phrases you discover.
+            <p className="text-2xl  text-[#1a1a1a] leading-snug font-geist font-light">
+              <span className="bg-[#FF6600]/5 text-gray-900 underline underline-offset-5 decoration-wavy decoration-[orange]  px-2 py-2 rounded-lg font-grandstander font-light ">smara</span> helps you save, revisit, and truly remember the words and phrases you discover.
             </p>
             
             <p className="text-lg md:text-xl text-gray-500 mt-6 font-cooper">
@@ -66,13 +66,13 @@ export default function SmaraPage({}: Props) {
         </div>
 
         {/* Right Content - Phone Mockup */}
-        <div className="relative flex justify-center">
+        <div className="relative flex justify-center  ">
              {/* Decorative blob or gradient could go here if needed behind the phone */}
              
             <img 
-              src={phoneMockup} 
-              height={686}
-              width={686}
+              src={phoneMockup2} 
+              height={1000}
+              width={350}
               alt="Smara App Screenshot" 
 
               // Added rounded corners to match modern phone screens if the image itself doesn't have them perfect
