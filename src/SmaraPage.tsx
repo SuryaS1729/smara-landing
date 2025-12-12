@@ -6,10 +6,10 @@ type Props = {}
 
 export default function SmaraPage({}: Props) {
   return (
- <div className="min-h-screen w-full bg-white flex items-center justify-center p-4 md:p-8 lg:p-20 overflow-hidden mt-10 lg:mt-0">
-      <div className="max-w-[1200px] w-full grid grid-cols-1 lg:grid-cols-2  gap-12 lg:gap-24 items-center p-2 mx-10 mt-20 lg:mt-0 ">
+ <div className="min-h-screen w-full bg-white flex items-center justify-center px-6 md:px-8 lg:px-20 py-20 overflow-hidden">
+      <div className="max-w-[1200px] w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
         {/* Left Content */}
-        <div className="flex flex-col items-start lg:items-start gap-8 z-10  ">
+        <div className="flex flex-col items-start lg:items-start gap-8 z-10 p-6 mt-10 lg:mt-0 lg:p-0  ">
           {/* Logo Section */}
           <div className="flex items-center gap-4 ">
             <img 
