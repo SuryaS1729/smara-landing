@@ -1,4 +1,3 @@
-import logo from '../assets/app-logo2.png'
 
 export default function Footer() {
   return (
@@ -9,7 +8,7 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <img 
-                src={logo} 
+              src="/app-logo2.webp"
                 alt="Smara Logo" 
                 className="size-10 object-contain rotate-[-10deg]"
               />

@@ -1,6 +1,5 @@
 
-import logo from './assets/app-logo2.png'
-import phoneMockup2 from './assets/ss2.png'
+
 
 type Props = {}
 
@@ -13,7 +12,7 @@ export default function SmaraPage({}: Props) {
           {/* Logo Section */}
           <div className="flex items-center gap-4 ">
             <img 
-              src={logo} 
+              src="/app-logo2.webp"
               alt="Smara Logo" 
               className="size-16 object-contain rotate-[-10deg]" // Adjusted size based on visual
             />
@@ -43,14 +42,14 @@ export default function SmaraPage({}: Props) {
           <div className="flex flex-row gap-4 mt-4">
             <a href="#" className="hover:opacity-80 transition-opacity">
               <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" 
+                src="/appstore.svg" 
                 alt="Download on the App Store" 
                 className="h-12"
               />
             </a>
             <a href="#" className="hover:opacity-80 transition-opacity">
               <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
+                src="/playstore.svg" 
                 alt="Get it on Google Play" 
                 className="h-12"
               />
@@ -70,10 +69,12 @@ export default function SmaraPage({}: Props) {
              {/* Decorative blob or gradient could go here if needed behind the phone */}
              
             <img 
-              src={phoneMockup2} 
+              src="/ss2.webp"
               height={1000}
               width={350}
               alt="Smara App Screenshot" 
+                fetchPriority="high"
+
 
               // Added rounded corners to match modern phone screens if the image itself doesn't have them perfect
             />
